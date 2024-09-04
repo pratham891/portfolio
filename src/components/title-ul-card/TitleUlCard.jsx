@@ -1,5 +1,5 @@
 import React from 'react';
-import './titleUlcard.css';
+import './titleUlCard.css';
 
 const TitleUlCard = ({ title, ulList }) => {
     return (
