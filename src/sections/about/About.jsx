@@ -3,7 +3,7 @@ import './about.css';
 
 const About = () => {
     return (
-        <div className='About' style={{ border: "1px solid #fff" }}>
+        <div className='About' style={{ border: "1px solid #fff", marginTop: "50px" }}>
             <div className="about-heading">
                 <p>Hey, I'm Pratham Singh</p>
             </div>
