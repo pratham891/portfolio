@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
     right: 0;
+    width: 100%;
     color: #fff;
     z-index: 1000;
     padding: 10px 20px;
@@ -13,10 +14,9 @@
     align-items: center;
 }
 
-.navbar-logo a {
-    color: #fff;
-    font-size: 1.5rem;
-    text-decoration: none;
+.menu-icon {
+    display: none;
+    font-size: 1.8rem;
     cursor: pointer;
 }
 
@@ -39,5 +39,36 @@
 }
 
 .navbar-link:hover {
-    color: #f0a500;
+    color: #00aaff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        margin-left: 50px;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        padding: 20px 0;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    .navbar-item {
+        margin: 10px 0;
+    }
+
+    .navbar-link {
+        font-size: 1.5rem;
+    }
 }

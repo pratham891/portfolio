@@ -3,23 +3,23 @@ import './about.css';
 
 const About = () => {
     return (
-        <div className='About' style={{ border: "1px solid #fff", marginTop: "50px" }}>
+        <div className='About'>
             <div className="about-heading">
                 <p>Hey, I'm Pratham Singh</p>
             </div>
 
             <div className="about-desc">
-                <p>I am a Software Engineer exploring about tech and opportunities.</p>
+                <p>Passionate about technology and innovation, I am a Software Engineer dedicated to exploring new tools and techniques to enhance my skills and deliver impactful results.</p>
             </div>
 
             <div className="about-options">
-                <div className="hire-me">
+                <a href="https://www.linkedin.com/in/pratham-singh-596591203/" className="hire-me">
                     Hire Me
-                </div>
+                </a>
 
-                <div className="download-cv">
-                    Download CV
-                </div>
+                <a href="bit.ly/pratham-singh-resume" className="downloa-cv">
+                    My CV
+                </a>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import socials from './socials';
 
 const Contact = () => {
     return (
-        <div className='Contact' style={{ border: "1px solid #fff" }}>
+        <div className='Contact'>
             <div className="social-icons">
                 {
                     socials.map((item, index) => (

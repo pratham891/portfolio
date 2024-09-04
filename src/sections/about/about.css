@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.About {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.about-heading p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00aaff;
+}
+
+.about-desc p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-family: 'Satisfy', cursive;
+}
+
+.about-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-options a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about-options .hire-me {
+    background-color: #555;
+}
+
+.about-options .downloa-cv {
+    background-color: #00aaff;
+}
+
+.about-options a:hover {
+    color: #fff;
+}
+
+.about-options .hire-me:hover {
+    background-color: #888;
+}
+
+.about-options .downloa-cv:hover {
+    background-color: #0099dd;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .About {
+        padding: 15px;
+    }
+
+    .about-heading p {
+        font-size: 1.5rem;
+    }
+
+    .about-desc p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .about-options {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-options a {
+        text-align: center;
+        padding: 12px 0;
+        width: 100%;
+    }
+}

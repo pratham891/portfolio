@@ -5,7 +5,7 @@ import skillset from './skillset';
 
 const Skills = () => {
     return (
-        <div className='Skills' style={{ border: "1px solid #fff" }}>
+        <div className='Skills'>
             <div className="heading">
                 Technical Skills
             </div>

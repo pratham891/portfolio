@@ -1,0 +1,41 @@
+.Contact {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.social {
+    color: #fff;
+    font-size: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social:hover {
+    color: #00aaff;
+    /* Accent color matching other sections */
+    transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .social-icons {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .social {
+        font-size: 2.5rem;
+    }
+}
