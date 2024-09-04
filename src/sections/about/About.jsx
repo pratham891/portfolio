@@ -17,7 +17,7 @@ const About = () => {
                     Hire Me
                 </a>
 
-                <a href="bit.ly/pratham-singh-resume" className="downloa-cv">
+                <a href="https://bit.ly/pratham-singh-resume" className="downloa-cv">
                     My CV
                 </a>
             </div>
