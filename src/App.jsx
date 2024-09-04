@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import About from './sections/about/About'
 import Contact from './sections/contact/Contact'
@@ -21,6 +22,7 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
+      <Footer />
     </>
   )
 }
