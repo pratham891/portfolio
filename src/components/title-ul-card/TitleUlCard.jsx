@@ -21,9 +21,4 @@ const TitleUlCard = ({ title, ulList }) => {
     );
 }
 
-// TitleUlCard.propTypes = {
-//     title: PropTypes.string.isRequired,
-//     ulList: PropTypes.arrayOf(PropTypes.string).isRequired,
-// };
-
 export default TitleUlCard;

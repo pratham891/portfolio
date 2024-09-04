@@ -1,5 +1,6 @@
 import './App.css'
 import About from './sections/about/About'
+import Projects from './sections/projects/Projects'
 import Skills from './sections/skills/Skills'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <About />
       <Skills />
+      <Projects />
     </>
   )
 }

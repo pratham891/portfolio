@@ -14,7 +14,10 @@ const Skills = () => {
                 {
                     skillset.map((item, index) => (
                         <div className="skill-card" key={index}>
-                            <TitleUlCard title={item.domain} ulList={item.skills} />
+                            <TitleUlCard
+                                title={item.domain}
+                                ulList={item.skills}
+                            />
                         </div>
                     ))
                 }
