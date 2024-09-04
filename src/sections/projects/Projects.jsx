@@ -1,10 +1,10 @@
 import React from 'react';
-import projectsList from './projectsList.js';
+import projectsList from './projectsList';
 import ProjectCard from '../../components/project-card/ProjectCard.jsx';
 
 const Projects = () => {
     return (
-        <div className='projects' style={{ border: "1px solid #fff" }}>
+        <div className='Projects' style={{ border: "1px solid #fff" }}>
             <div className="heading">
                 Projects
             </div>

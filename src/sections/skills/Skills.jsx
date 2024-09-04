@@ -1,11 +1,11 @@
 import React from 'react';
 import './skills.css';
 import TitleUlCard from '../../components/title-ul-card/TitleUlCard';
-import skillset from './skillset.js';
+import skillset from './skillset';
 
 const Skills = () => {
     return (
-        <div className='skills' style={{ border: "1px solid #fff" }}>
+        <div className='Skills' style={{ border: "1px solid #fff" }}>
             <div className="heading">
                 Technical Skills
             </div>
