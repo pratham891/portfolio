@@ -25,7 +25,7 @@ This portfolio website is built using the following technologies:
 
 - **Frontend**: React on JavaScript, HTML5, CSS3
 - **Backend**: Node.js (Optional, if backend features are included in future updates)
-- **Deployment**: Vercel / Netlify (for hosting)
+- **Deployment**: Vercel
 
 ## Setup and Installation
 
