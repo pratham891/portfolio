@@ -1,11 +1,11 @@
 const skillset = [
     {
         domain: "Web Development",
-        skills: ["NodeJs", "ExpressJs", "ReactJs", "MongoDB", "JavaScript", "HTML5/CSS3"]
+        skills: ["NodeJs", "ExpressJs", "ReactJs", "Redux", "MongoDB", "JavaScript", "HTML5/CSS3"]
     },
     {
         domain: "DevOps",
-        skills: ["Docker", "git", "GitHub", "BitBucket"]
+        skills: ["SDLC", "Git", "GitHub", "BitBucket"]
     },
     {
         domain: "Programming Languages",
